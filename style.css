@@ -36,7 +36,7 @@ li{
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: 0.5fr 1fr;
     row-gap: 12px;
-    padding: 4px 32px;
+    padding: 16px 32px;
     column-gap: 20px;
 }
 
@@ -148,7 +148,7 @@ button{
     padding: 16px;
     display: grid;
     grid-template-rows: repeat(13, 25px);
-    row-gap: 12px;
+    row-gap: 20px;
 }
 
 .sidebar > h1{
@@ -169,17 +169,23 @@ h1 svg {
     display: flex;
     align-items: center;
     color: white;
+    height: 2em;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-decoration: none;
 }
 
+a:hover{
+    border-radius: 12px;
+    background-color: #154c79;
+}
+
 .sidebar > a > svg{
-    height: 1em; 
-    width: auto; 
-    margin-right: 1.62em; 
+    height: 1.5em; 
+    width: 1.3em; 
+    margin-right: 1.32em; 
     fill: var(--svg-clr);
-    margin-left: 0.7em;
+    margin-left: 0.5em;
 }
 
 
@@ -189,6 +195,7 @@ h1 svg {
     grid-template-columns: 0.75fr 0.25fr;
     column-gap: 16px;
     padding: 24px;
+    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .projects{
@@ -221,6 +228,7 @@ h1 svg {
     background-color: white;
     border-radius: 12px;
     gap: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -242,8 +250,7 @@ hr {
     display: grid;
     grid-template-rows: repeat(4,1fr);
     gap:12px;
-
-   
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .trending div{
@@ -286,6 +293,8 @@ hr {
     display: grid;
     grid-template-rows: 2fr 0.8fr;
     gap:12px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+
 }
 
 .project svg {
